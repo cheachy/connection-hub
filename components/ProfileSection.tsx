@@ -66,7 +66,7 @@ const ProfileSection: React.FC = () => {
       <ProfileCard 
         id="me" 
         label="Chami" 
-        driveImageUrl="1ZElHN_XKkCP0ZVbekAuIqnFqB3wrG4EF" 
+        driveImageUrl="https://lh3.googleusercontent.com/d/1ZElHN_XKkCP0ZVbekAuIqnFqB3wrG4EF" 
         defaultColor="border-emerald-500/50 shadow-emerald-500/10" 
       />
       
@@ -79,7 +79,7 @@ const ProfileSection: React.FC = () => {
       <ProfileCard 
         id="her" 
         label="Mavis" 
-        driveImageUrl="1ucZngaKanKKmZXiFFcpWrn9tcCCS5V21"
+        driveImageUrl="https://lh3.googleusercontent.com/d/1ucZngaKanKKmZXiFFcpWrn9tcCCS5V21"
         defaultColor="border-pink-500/50 shadow-pink-500/10" 
       />
     </div>
