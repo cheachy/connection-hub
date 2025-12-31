@@ -57,7 +57,7 @@ const App: React.FC = () => {
                 </div>
                 <h3 className="font-bold text-slate-200">Now Playing...</h3>
             </div>
-            <div className="rounded-[12px] overflow-hidden leading-[0] flex items-center justify-center bg-black/40"> 
+            <div className="rounded-[12px] leading-[0] flex items-center justify-center bg-black/40"> 
               <iframe 
                 style={{ borderRadius: '12px', border: 'none', overflow: 'hidden' }}
                 src="https://open.spotify.com/embed/playlist/5rZ6x9acK3fUbPMOORRuPu?utm_source=generator&theme=0"
@@ -69,7 +69,7 @@ const App: React.FC = () => {
                 loading="lazy">
               </iframe>
             </div>
-          </div>
+          </div>e
         </div>
       </main>
 
