@@ -60,7 +60,7 @@ const App: React.FC = () => {
             <div className="rounded-[12px] overflow-hidden leading-[0] flex items-center justify-center bg-black/40"> 
               <iframe 
                 style={{ borderRadius: '12px', border: 'none', overflow: 'hidden' }}
-                src="https://open.spotify.com/embed/track/410fyfFghBsxNu45LiNJ24?utm_source=generator&theme=0" 
+                src="https://open.spotify.com/embed/playlist/5rZ6x9acK3fUbPMOORRuPu?utm_source=generator&theme=0"
                 width="100%" 
                 height="352" 
                 frameBorder="0"

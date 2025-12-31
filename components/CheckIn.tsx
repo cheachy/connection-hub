@@ -1,6 +1,15 @@
 
 import React, { useState } from 'react';
-import { getDailyQuestion } from '../services/geminiService';
+import { FALLBACK_QUESTIONS } from "../constants";
+
+export const getDailyQuestion = async (): Promise<string> => {
+  // Simulate a short delay to keep the "loading" animation feel
+  await new Promise(resolve => setTimeout(resolve, 500));
+  
+  // Pick a random question from your local list
+  const randomIndex = Math.floor(Math.random() * FALLBACK_QUESTIONS.length);
+  return FALLBACK_QUESTIONS[randomIndex];
+};
 
 const CheckIn: React.FC = () => {
   const [question, setQuestion] = useState<string | null>(null);

@@ -27,5 +27,8 @@ export const FALLBACK_QUESTIONS = [
   "What's a small habit of mine you've noticed already?",
   "What song reminds you of our first conversation?",
   "What's your 'comfort movie' that you could watch 100 times?",
-  "If you had to describe our first week in three words, what would they be?"
+  "If you had to describe our first week in three words, what would they be?",
+  "What is your favorite way to spend a rainy afternoon?",
+  "What's the best piece of advice you’ve ever received?",
+  "If you could have dinner with any fictional character, who would it be?"
 ];
